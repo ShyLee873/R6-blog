@@ -1,0 +1,23 @@
+<%= form_for(page) do |f| %>
+    <div classs="field">
+    <%= f.label :title%>
+    <%= f.text_field :title%>
+    </div>
+
+    <div classs="field">
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+    </div>
+
+    <div classs="field">
+    <%= f.label :slug %>
+    <%= f.text_field :slug %>
+    </div>
+
+    <div>
+        <br>
+        <%= f.submit %>
+    </div>
+
+<% end %>
+  
