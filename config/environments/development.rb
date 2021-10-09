@@ -80,4 +80,5 @@ Rails.application.configure do
   #added web console permissions *SL
   
   config.force_ssl
+  config.web_console.permissions = '10.0.2.2'
 end
